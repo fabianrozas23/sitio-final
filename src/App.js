@@ -40,11 +40,11 @@ function App() {
         </Menu.Item>
         
         <Menu.Item
-          name='Descricpción' 
+          name='Descricpcion' 
           
           onClick={()=>console.log("click menu 4")}
         >
-          Descripción
+          Descripcion
         </Menu.Item>
 
         <Menu.Item
