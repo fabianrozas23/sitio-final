@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
 
-const colorsA = ['Home', 'Concurso', 'yellow', 'olive', 'green', 'teal']
+const colorsA = ['Home', 'Concurso', 'Yellow', 'olive', 'green', 'teal']
 
 export default class MenuExampleColoredInverted extends Component {
   state = { activeA: colorsA[0] }
