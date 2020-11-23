@@ -23,6 +23,7 @@ const GridExampleCelled = () => (
         <Label as='a' color='orange' ribbon='right'>
           Specs
         </Label>
+        <span>Account Details</span>
         <Image src='https://react.semantic-ui.com/logo.png' />
 
         
