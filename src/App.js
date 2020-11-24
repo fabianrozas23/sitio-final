@@ -2,21 +2,22 @@ import 'semantic-ui-css/semantic.min.css'
 import Menu from './Component/Menu';
 import React from "react";
 import Grid from './Component/Grid';
-import Card from './Component/Card';
-import ContentBlock from './Component/ContentBlock';
-import Login from './Component/Login';
+import './App.css';
+
 
 
 
 function App() {
   return (
     <div className="App">
-       <Menu/>
-       <div><Grid/></div>
-       <div><Card/></div>
-       <div><ContentBlock/></div>
-       <div><Login/></div>
-       
+      <header className="App-header">
+        <Menu/>
+      </header>
+      <body >
+        <div className ="Grid">
+          <Grid/>
+        </div>
+      </body>
 
 
        
