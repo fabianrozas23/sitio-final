@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
-import facherito from './Facherito.jpeg';
+import facherito from './jorge.png';
 
 const CardExampleCard = () => (
   <Card>
