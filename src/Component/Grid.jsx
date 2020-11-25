@@ -23,11 +23,11 @@ const GridExampleCelled = () => (
     </Grid.Column>
 
     <Grid.Column>
-      <Segment>
-        <Label as='a' color='black' ribbon='Right'>
-          Informacion
-        </Label>
-        Detalles del Emprendimiento
+    <Segment raised>
+      <Label color='red' horizontal>
+      Informacion
+      </Label>
+      Detalles del Emprendimiento
         <Conteiner/>
       </Segment>
     </Grid.Column>

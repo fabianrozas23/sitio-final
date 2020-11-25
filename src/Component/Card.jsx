@@ -4,7 +4,6 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 const CardExampleCard = () => (
   
   <Card>
-    <Image src='/images/avatar/large/matthew.png' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Felipe Rojas</Card.Header>
       <Card.Meta>
