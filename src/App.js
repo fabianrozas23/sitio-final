@@ -1,5 +1,6 @@
 import 'semantic-ui-css/semantic.min.css'
 import Menu from './Component/Menu';
+//import formulario from './Component/formulario'
 import React from "react";
 import Grid from './Component/Grid';
 import './App.css';
