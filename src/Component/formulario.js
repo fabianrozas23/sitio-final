@@ -7,7 +7,7 @@ const options = [
   { key: 'o', text: 'Other', value: 'other' },
 ]
 
-export default class FormExampleFieldControl extends Component {
+ class FormExampleFieldControl extends Component {
   state = {}
 
   handleChange = (e, { value }) => this.setState({ value })
