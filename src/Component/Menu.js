@@ -20,8 +20,8 @@ export default class MenuExampleColoredInverted extends Component {
               key={c}
               name={c}
               active={activeA === c}
-              color={'red'}
-              onClick={this.handleAClick}
+              color={'blue'}
+              onClick={() => hashHistory.push(`/mySite/accountview?id=${account.AccountName}`)}
             />
           ))}
           <Dropdown item text='Links directos'>
