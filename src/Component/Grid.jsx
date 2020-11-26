@@ -2,32 +2,27 @@ import React from 'react'
 
 import {  Label,Grid, Segment} from 'semantic-ui-react'
 import Card from './Card';
-import Card_Jorge from './Card_Jorge';
+import Card_Mascota from './Card_Mascota';
 import Conteiner from './Conteiner';
 const GridExampleCelled = () => (
     <Grid columns={2}>
     <Grid.Column >
       <Segment raised>
-      <Label color='red' horizontal>
-        Emprendedores
+      <Label color='blue' horizontal>
+        Informacion personal
       </Label>
-      ¿Quienes Somos?
         
         <Card />
-        <Card_Jorge/>
+        <Card_Mascota/>
 
-        
-
-        
       </Segment>
     </Grid.Column>
 
     <Grid.Column>
     <Segment raised>
-      <Label color='red' horizontal>
-      Informacion
+      <Label color='blue' horizontal>
+      Informacion sobre el curso
       </Label>
-      Detalles del Emprendimiento
         <Conteiner/>
       </Segment>
     </Grid.Column>

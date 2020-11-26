@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Menu, Dropdown } from 'semantic-ui-react'
 
-const colorsA = ['Home', 'Concurso','Ideas', 'Información', 'Contacto', 'Herramientas']
+const colorsA = ['Inicio', 'Validador','Fotografias', 'Diversión', 'Contacto']
 
 export default class MenuExampleColoredInverted extends Component {
   state = { activeA: colorsA[0] }
@@ -24,14 +24,12 @@ export default class MenuExampleColoredInverted extends Component {
               onClick={this.handleAClick}
             />
           ))}
-          <Dropdown item text='Redes Sociales'>
+          <Dropdown item text='Links directos'>
           <Dropdown.Menu>
             
             <Dropdown.Header></Dropdown.Header>
             <Dropdown.Item>Facebook</Dropdown.Item>
             <Dropdown.Item>Instagram</Dropdown.Item>
-            <Dropdown.Item>Google</Dropdown.Item>
-            <Dropdown.Item>Twitter</Dropdown.Item>
             
       
           </Dropdown.Menu>

@@ -26,7 +26,7 @@
   .Grid{
     min-height: 60%;
     min-width: 80%;
-    color: black;
+    color: rgb(1, 44, 94);
     justify-content: left;
     
   }
@@ -34,7 +34,7 @@
     color: #61dafb;
   }
   .contacto{
-    color: red;
+    color: rgb(1, 27, 25);
   }
   
   @keyframes App-logo-spin {
