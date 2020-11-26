@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { Button, Checkbox, Form, Input, Radio, Select, TextArea } from 'semantic-ui-react'
 
 const options = [
@@ -7,7 +7,7 @@ const options = [
   { key: 'o', text: 'Other', value: 'other' },
 ]
 
-class FormExampleFieldControl extends Component {
+export default class FormExampleFieldControl extends Component {
   state = {}
 
   handleChange = (e, { value }) => this.setState({ value })

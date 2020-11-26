@@ -4,6 +4,7 @@ import {  Label,Grid, Segment} from 'semantic-ui-react'
 import Card from './Card';
 import Card_Mascota from './Card_Mascota';
 import Conteiner from './Conteiner';
+
 const GridExampleCelled = () => (
     <Grid columns={2}>
     <Grid.Column >
@@ -24,6 +25,7 @@ const GridExampleCelled = () => (
       Informacion sobre el curso
       </Label>
         <Conteiner/>
+        <formulario/>
       </Segment>
     </Grid.Column>
   </Grid>
