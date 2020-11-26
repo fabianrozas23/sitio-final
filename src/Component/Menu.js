@@ -1,29 +1,35 @@
 import React, { Component } from 'react'
 import { Menu, Dropdown } from 'semantic-ui-react'
+import { Link } from 'react-router-dom';
 
-const colorsA = ['Inicio', 'Validador','Fotografias', 'Diversión', 'Contacto']
+//const colorsA = ['Inicio', 'Validador','Fotografias', 'Videos', 'Contacto']
 
 export default class MenuExampleColoredInverted extends Component {
-  state = { activeA: colorsA[0] }
+  //state = { activeA: colorsA[0] }
 
-  handleAClick = (e, { name }) => this.setState({ activeA: name })
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
   
-
   render() {
-    const { activeA } = this.state
+    const navStyle = {
+      color: 'Blue'
+    };
 
     return (
       <div>
         <Menu inverted>
-          {colorsA.map((c) => (
-            <Menu.Item
-              key={c}
-              name={c}
-              active={activeA === c}
-              color={'blue'}
-              onClick={() => hashHistory.push(`/mySite/accountview?id=${account.AccountName}`)}
-            />
-          ))}
+        <ul className="nav-links">
+                <Link style={navStyle} to='/Inicio'>
+                        Validador de RUT
+                </Link> 
+                
+            </ul>
+            <ul className="nav-links">
+                <Link style={navStyle} to='/Formulario'>
+                        Formulario
+                </Link> 
+                
+            </ul> 
+        
           <Dropdown item text='Links directos'>
           <Dropdown.Menu>
             
