@@ -2,12 +2,13 @@
 
 import React from 'react'
 import { Container, Divider,Grid,Image } from 'semantic-ui-react'
+import fotodesarrollo from './desarrollo.png';
 
 const ContainerExampleAlignment = () => (
   <div>
     <Container textAlign='justified'>
       <Divider />
-      <Image src='https://recicladoindustrial.com/wp-content/uploads/2020/09/logo-ceroscrap-sello2.png' centered />
+      <Image src={fotodesarrollo} centered />
         <p>BIENVENIDOS A MI PÁGINA WEB</p>
           
           <p> Este es mi primer sitio web que he creado, y lo he realizado gracias a las asignaturas de Arquitectura de Software

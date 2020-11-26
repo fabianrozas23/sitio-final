@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
-import mifoto from './yo.png';
+import mimascota from './miperro.png';
 
 const CardExampleCard = () => (
   <Card>
@@ -8,7 +8,7 @@ const CardExampleCard = () => (
       <Card.Header>Mi perro JOEY</Card.Header>
       
       <Card.Description>
-      <Image src={mifoto} size='medium' />
+      <Image src={mimascota} size='medium' />
         <p>Este es mi perro Yorkshire. Su nombre es Joey y viene del significado unión 
           y amor. Es un perro miedoso, dormilon y muy regalon. Le gusta comer mucho y salir
           a pasear.   
